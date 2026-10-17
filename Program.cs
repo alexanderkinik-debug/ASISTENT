@@ -158,7 +158,7 @@ void VykonajArray()
 
         if (prikaz3 == "find")
         {
-            Console.WriteLine("Ake cislo chces najst:");
+            Console.WriteLine("Ake cislo chces najst:"); 
             double hladane = Convert.ToDouble(Console.ReadLine());
 
             NajdiCislo(cisla, hladane);
