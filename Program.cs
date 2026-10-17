@@ -174,7 +174,7 @@ void VykonajArray()
             Zorad(cisla);
             Console.WriteLine("Zoradene pole:");
 
-            for (int i = 0; i < cisla.Length; i++)
+            for (int i = 0; i < cisla.Length; i++) 
             {
                 Console.WriteLine(cisla[i] + " ");
             }
@@ -234,3 +234,4 @@ void Zorad(double[] cisla)
         }
     }
 }
+// Tu sa konci Faza 3.
